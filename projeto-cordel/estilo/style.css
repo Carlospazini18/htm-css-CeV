@@ -5,16 +5,54 @@
     padding: 0;
 }
 
-section#paralex1{
-    background-image: url(../imagens/background001.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    height: 400px;
+html, body{
+    background-color: lightgray;
+    min-height: 100vh;
 }
-section#paralex2{
-    background-image: url(../imagens/background002.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    height: 400px;
 
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    padding-top : 50px;
+    font-variant: small-caps;
+}
+header > p {
+    padding-bottom: 50px;
+}
+header > p > a, footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.com-imagem > p {
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.329);
+    padding: 10px;
+}
+section.com-imagem {
+    background-color: rgb(5, 65, 65);
+    color: white;
+}
+section.sem-imagem {
+    background-color: rgba(137, 43, 226, 0.281);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
