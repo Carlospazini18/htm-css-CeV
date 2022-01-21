@@ -57,17 +57,30 @@ section.com-imagem > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.329);
     padding: 10px;
+    text-shadow: 1px 1px black;
 }
 section.com-imagem {
     background-color: rgb(5, 65, 65);
     color: white;
-    
+    text-shadow: 1px 1px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.sem-imagem {
     background-color: white;
 }
 section.sem-imagem > p{
-    padding: 10px;
+    padding-left: 10px;
+    padding-bottom: 2em;
+}
+
+section#paralex1 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right;
+}
+section#paralex2 {
+    background-image: url(../imagens/background002.jpg);
 }
 
 footer{
